@@ -1,0 +1,42 @@
+.faceoils-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.faceoils-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.faceoil-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 15px;
+}
+
+.faceoil-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.faceoil-info h2 {
+    font-size: 1.2em;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.faceoil-info p {
+    font-size: 1em;
+    color: #555;
+}
+
+.faceoil-info p:first-of-type {
+    font-weight: bold;
+    margin-bottom: 10px;
+}

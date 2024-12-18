@@ -1,0 +1,27 @@
+.skincare-tips {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.skincare-tips h1,
+.skincare-tips h2 {
+    color: #0032a0;
+    margin-bottom: 15px;
+}
+
+.skincare-tips p {
+    margin-bottom: 15px;
+}
+
+.skincare-tips ul {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+.skincare-tips ul li {
+    margin-bottom: 10px;
+}
